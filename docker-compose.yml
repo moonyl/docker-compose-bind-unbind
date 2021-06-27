@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  simple-httpd:
+    image: simple-httpd:latest
+    build:
+      context: .      
+    expose:
+      - "8080"
